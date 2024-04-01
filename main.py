@@ -93,11 +93,11 @@ canvas.bind("<Button-1>", get_pixel_color)
 
 # Image Button
 image_button = customtkinter.CTkButton(master=frame_control, text="Select Image", command=select_image)
-image_button.grid(column = 0, row = 2, padx = 10, pady = 10)
+image_button.grid(column = 1, row = 2, padx = 50, pady = 50, )
 
 #Download New Image Button
 save_button = customtkinter.CTkButton(master=frame_control, text="Save Image as PNG", command=download_image)
-save_button.grid(column = 0, row = 3)
+save_button.grid(column = 1, row = 3)
 
 
 
